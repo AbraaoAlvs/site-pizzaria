@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif; /* Define uma fonte padrão agradável */
+    font-family: Arial, sans-serif; 
 }
 
 body {
-    background-color: #f4f4f9; /* Fundo sutil para o site */
-    color: #333; /* Cor de texto principal */
+    background-color: #f4f4f9; 
+    color: #333; 
 }
 
 /* Header e Menu */
@@ -57,14 +57,14 @@ header {
 #sessao-2 {
     padding: 60px 20px;
     text-align: center;
-    background-color: #444; /* Fundo mais suave para contraste */
+    background-color: #444; 
     color: #fff;
 }
 
 #sessao-2 h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    color: #fff; /* Cor destaque */
+    color: #fff; 
 }
 
 .card-container {
@@ -103,8 +103,7 @@ header {
 .card-img img {
     width: 100%;
     height: 100%;
-    /*border-radius: 80%;*/
-    /*object-fit: cover;*/
+    
 }
 /*.card-img{
     
