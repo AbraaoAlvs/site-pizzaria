@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Define uma fonte padrão agradável */
+}
+
+body {
+    background-color: #f4f4f9; /* Fundo sutil para o site */
+    color: #333; /* Cor de texto principal */
+}
+
+/* Header e Menu */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-section {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+/* Sessão 2 - Cards */
+#sessao-2 {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #444; /* Fundo mais suave para contraste */
+    color: #fff;
+}
+
+#sessao-2 h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff; /* Cor destaque */
+}
+
+.card-container {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card-img {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+    /*border-radius: 80%;*/
+    /*object-fit: cover;*/
+}
+/*.card-img{
+    
+    /*position: relative;
+    margin: 0 auto 10px;
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+} */
+
+.card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Sessão 3 - Sobre Nós */
+#sessao-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    min-height: 300px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.about-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+    font-size: 1.1em;
+    text-align: left;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+/* Estilo Responsivo */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 150px;
+    }
+}
+
+
+
+
+
+
