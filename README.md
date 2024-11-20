@@ -1,4 +1,4 @@
-# gera-o-tech
+# site pizzaria
 Trabalho de leading page
 
 Trabalho realizado para o curso geração Tech, onde criei uma landingpage de uma pizzaria. Nesse projeto 
